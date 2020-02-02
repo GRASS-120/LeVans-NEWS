@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
+import Footer from './components/Footer/Footer';
+import NavBar from './components/NavBar/NavBar';
 
 let STATE = {
 
@@ -10,12 +12,9 @@ let STATE = {
 const Site = () => {
     return (
         <div id='page'>
-            <div id='page-wrap'>
-        
-            </div>
-            <footer>
-
-            </footer>
+            <NavBar />
+            
+            <Footer></Footer>
         </div>
     )
 }
