@@ -9,4 +9,5 @@ footer {
     padding: 0.1vw;
     z-index: 100;
     color: #fafafa;
+    border-top: 1px dashed rgb(220, 53, 69);
   }

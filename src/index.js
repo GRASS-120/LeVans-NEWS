@@ -4,18 +4,23 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import Footer from './components/Footer/Footer';
 import NavBar from './components/NavBar/NavBar';
-import TopNews from './components/TopNews/TopNews';
+import MainPage from './components/MainPage/MainPage';
 
 let STATE = {
+    MainPageDATA: {
+        TopNews: [],
+        News: [],
+        Ad: []
+    },
 
 }
 
 const Site = () => {
     return (
         <div id='page'>
-            <NavBar />
-            <TopNews></TopNews>
-            <Footer></Footer>
+            <NavBar/>
+            <MainPage MainPageDATA={STATE.MainPageDATA}/>
+            <Footer/>
         </div>
     )
 }

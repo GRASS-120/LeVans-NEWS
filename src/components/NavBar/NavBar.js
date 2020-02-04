@@ -4,7 +4,7 @@ import './NavBar.css'
 class NavBar extends React.Component {
     render(){
         return (
-          <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+          <nav class="navbar navbar-expand-lg bg-dark navbar-dark" id='navbar'>
 
             <a class="navbar-brand" href="#">
               <img src='https://sun9-12.userapi.com/c858024/v858024808/16da4b/2BH_6vjYiOQ.jpg' height='40px' id='logo'></img>              
@@ -28,6 +28,10 @@ class NavBar extends React.Component {
 
                 <li class="nav-item">
                   <a class="nav-link" href="#">WORLD 🌎</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="btn btn-outline-danger my-2 my-sm-0" type="submit">ADMIN 👾</a>
                 </li>
 
               </ul>
