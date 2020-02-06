@@ -1,0 +1,6 @@
+#news_block {
+    grid-area: news;
+    margin-top: 10vh;
+    height: 75vh;
+    background: #334;
+}

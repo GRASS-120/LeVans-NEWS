@@ -1,0 +1,6 @@
+#ad_block {
+    grid-area: ad;
+    margin-top: 10vh;
+    height: 75vh;
+    background: #334;
+}

@@ -4,8 +4,8 @@ import './Footer.css'
 class Footer extends React.Component {
     render(){
         return (
-            <footer class="page-footer font-small blue pt-4">
-                <div class="footer-copyright text-center py-3">© 2020 Copyright: АЛЖИР LeVans ⚠️
+            <footer class="page-footer font-small blue pt-2">
+                <div class="footer-copyright text-center py-2">© 2020 Copyright: АЛЖИР LeVans ⚠️
                 </div>
             </footer>
         );
