@@ -17,17 +17,20 @@ class NavBar extends React.Component {
         
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
-
-                <li class="nav-item">
-                  <a class="nav-link" href="#">GAMES 🎮</a>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">ALL NEWS 📜</a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="#">TECHNOLOGIES 💻</a>
+                  <a class="nav-link" href="#">#GAMES 🎮</a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="#">WORLD 🌎</a>
+                  <a class="nav-link" href="#">#TECHNOLOGIES 💻</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">#WORLD 🌎</a>
                 </li>
 
                 <li class="nav-item">

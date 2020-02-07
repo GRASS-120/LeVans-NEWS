@@ -1,6 +1,7 @@
 #ad_block {
     grid-area: ad;
     margin-top: 10vh;
-    height: 75vh;
+    height: 175vh;
     background: #334;
+    box-shadow: 2px 5px 5px black;
 }

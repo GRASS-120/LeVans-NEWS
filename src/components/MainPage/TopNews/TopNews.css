@@ -8,6 +8,7 @@
 
 .top_news_item {
     width: 100%;
+    box-shadow: 2px 5px 5px black;
 }
 
 .top_news_content {

@@ -6,4 +6,9 @@
 #navbar {
     background-color: #7f8fa6;
     border-bottom: 1px dashed rgb(220, 53, 69);
+    box-shadow: 2px 1px 1px rgb(220, 53, 69);
+}
+
+.nav-item:hover {
+    color: #fafafa;
 }

@@ -7,5 +7,6 @@ footer {
     padding: 3vh;
     z-index: 100;
     color: #fafafa;
-    border-top: 1px dashed rgb(220, 53, 69);
+    /* border-top: 1px dashed rgb(220, 53, 69);
+    box-shadow: 2px 1px 1px rgb(220, 53, 69); */
   }
