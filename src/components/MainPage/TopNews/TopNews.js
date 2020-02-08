@@ -12,7 +12,7 @@ class TopNews extends React.Component {
                     </div>
 
                     <div class='top_news_display'>
-                        <p class='top_news_title'>Lorem ipsum dolor sit amet. 💜🙀</p><hr/>
+                        <p class='news_title'>Lorem ipsum dolor sit amet. 💜🙀</p><hr/>
                     </div>
                 </div>
 
