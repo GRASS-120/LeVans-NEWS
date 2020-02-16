@@ -1,0 +1,17 @@
+*{
+    margin: 0vw;
+    padding: 0vw;
+}
+#header{
+    width: 100vw;
+    height: 17.36vw;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+}
+#logo{
+    width: 10vw;
+    margin-top: 3.47vw;
+}
