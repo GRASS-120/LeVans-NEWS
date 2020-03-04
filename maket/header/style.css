@@ -50,14 +50,14 @@
     height: auto;
     margin-top: 1.51em;
     margin-left: 2.57em;
-    margin-bottom: 1.51em;
     margin-right: 2.57em;
+    transition: 0.2s;
 }
 .block_navbar{
     margin-top: 0px;
     margin-left: 0px;
     text-align: center;
-    top: -3.3em;
+    top: -2.2em;
     width: 11.67vw;
     height: 5em;
     display: inline-block;
@@ -66,6 +66,7 @@
     font-family: monospace;
     font-size: 1.8em;
     padding-left: 0px;
+    transition: 0.2s;
 }
 #icon{
     height: 5.89em;
