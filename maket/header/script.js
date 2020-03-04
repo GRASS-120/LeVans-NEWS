@@ -60,11 +60,11 @@ $(window).scroll(() => {
         $("#icon").css("top", "2.34em");
         $("#search_icon").css({
             "top": "2.34em",
-            "transition": "0.2s",
+            "transition": "0.2s"
         });
         $("#search").css({
             "top": "2.34em",
-            "transition": "0.2s",
+            "transition": "0.2s"
         });
         setTimeout(() => {
             $("#navbar").css("transition","0s");
