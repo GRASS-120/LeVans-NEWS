@@ -68,6 +68,8 @@ $(window).scroll(() => {
         });
         setTimeout(() => {
             $("#navbar").css("transition","0s");
+            $("#search_icon").css("transition", "1s");
+            $("#search").css("transition", "1s");
         }, 250);
     }
 });
