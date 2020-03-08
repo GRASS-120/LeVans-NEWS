@@ -1,0 +1,123 @@
+#header{
+    width: 100%;
+    height: 19.53em;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(52, 58, 64);
+}
+#logo{
+    width: 17.7em;
+    margin-top: 3.90em;
+}
+#polosa{
+    width: 17.7em;
+    height: 0.05em;
+    margin-top: 2.5em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+#header-text{
+    width: 17.7em;
+    height: auto;
+    margin-top: 0.36em;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 2em;
+    font-family: monospace;
+    font-weight: 900;
+}
+#navbar{
+    width: 100%;
+    height: 10.57em;
+    background-color: rgb(41, 42, 43);
+    top: 19.53em;
+    position: absolute;
+    padding: 0px;
+    z-index: 2;
+}
+#aljir{
+    display: inline-block;
+    width: 7.55em;
+    height: auto;
+    margin-top: 1.51em;
+    margin-left: 2.57em;
+    margin-right: 2.57em;
+    transition: 0.2s;
+}
+.block_navbar{
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+    top: -2.2em;
+    width: 11.67vw;
+    height: 5em;
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-family: monospace;
+    font-size: 1.8em;
+    padding-left: 0px;
+    transition: 0.2s;
+}
+#icon{
+    height: 5.89em;
+    width: 5.89em;
+    border-radius: 2.95em;
+    position: absolute;
+    top: 2.34em;
+    right: 2.45em;
+    background-color: rgb(99, 104, 109);
+}
+#search_icon{
+    height: 5.89em;
+    width: 5.89em;
+    border-radius: 2.95em;
+    position: absolute;
+    top: 2.34em;
+    right: 9.59em;
+    background-color: rgb(99, 104, 109);
+    z-index: 2;
+    transform: rotate(0deg);
+    transition: 1s;
+}
+#search{
+    height: 5.89em;
+    width: 5.89em;
+    border-radius: 2.95em;
+    position: absolute;
+    top: 2.34em;
+    right: 9.59em;
+    background-color: rgb(84, 84, 84);
+    z-index: 1;
+    transform: rotate(0deg);
+    transition: 1s;
+}
+#search_input{
+    height: 3.8em;
+    width: 15.4em;
+    font-size: 1.5em;
+    border: 0px;
+    position: absolute;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    top: 0.1em;
+    right: 0em;
+    padding-left: 0.1em;
+    z-index: 2;
+    transition: 1s;
+    opacity: 0;
+    outline: none;
+}
+
+#height{
+    height: 1000%;
+    width: 5%;
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+}
