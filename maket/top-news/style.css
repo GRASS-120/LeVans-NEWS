@@ -138,3 +138,7 @@ span:hover {
 .post.active {
     display: block;
 }
+
+.carousel-control-prev, .carousel-control-next {
+    /* background-color: black; */
+}
