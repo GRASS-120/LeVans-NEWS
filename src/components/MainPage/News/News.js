@@ -12,7 +12,7 @@ class News extends React.Component {
                         </div>
 
                         <div class='news_display'>
-                            <p class='news_title'>Lorem ipsum dolor sit amet. 💜🙀</p><hr/>
+                            <p class='news_title'>Lorem ipsum dolor sit amet. 💜🙀</p>
                         </div>  
                     </div>
                     <div class='news_item'>sass</div>
