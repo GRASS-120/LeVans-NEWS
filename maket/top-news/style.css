@@ -19,7 +19,7 @@
     text-align: center;
 }
 
-#top_news_block {  /* slider */
+#top_news_block { 
     padding: 2.7em;
     height: 80%;
     background-color: #dfe4ea;
@@ -107,9 +107,7 @@
     background-color: #EA2027;
 }
 
-
 /* slider */
-
 
 span {
     text-decoration: none;
@@ -137,8 +135,4 @@ span:hover {
 
 .post.active {
     display: block;
-}
-
-.carousel-control-prev, .carousel-control-next {
-    /* background-color: black; */
 }

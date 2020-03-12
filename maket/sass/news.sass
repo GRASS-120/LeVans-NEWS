@@ -1,2 +1,82 @@
-body
-    background: red
+@mixin block_size($w, $h)
+    width: $w
+    height: $h
+     
+*
+    margin: 0
+    padding: 0
+    font-family: 'Oswald', sans-serif
+
+
+#news
+    @include block_size(88.5em, auto)
+    margin: 1em auto 
+
+#title_news_block
+    @include block_size(88.5em, 20%)
+    margin: 0 auto
+
+#title_news
+    font-size: 3.75em
+    text-align: center
+
+#news_block
+    margin-top: 2em
+    padding: 1.35em
+    height: 80%
+    background-color: #dfe4ea
+    box-shadow: 2px 10px 10px silver
+    
+#articles_block
+    @include block_size(100%, auto)
+    margin: 0 auto
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+
+.article
+    @include block_size(26em, 28.65em)
+    background-color: #747d8c
+    margin: 1.3em
+
+    &_tag
+        @include block_size(100%, 10%)
+        background-color: #747d8c
+
+        & p
+            padding: 0.6em
+            color: #fafafa
+    
+    &_img
+        @include block_size(100%, 55%)
+        background-color: blue
+
+        & img
+            @include block_size(100%, 100%)
+
+    &_display
+        @include block_size(100%, 35%)
+        
+        & p:first-child
+            padding: 0.5em
+            font-size: 1.2em
+            color: white
+
+        & p:last-child
+            padding: 0.3em
+                left: 1em
+            font-size: 1.5em
+            color: white
+
+#button_block button
+    display: block
+    margin: 3em auto
+    border: none
+    font-size: 1.3em
+    padding: 0.7em
+    transition: 0.3s
+    color: #fafafa
+    background-color: #d63031
+
+    &:hover
+        background-color: #EA2027;
