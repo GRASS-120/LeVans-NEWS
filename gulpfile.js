@@ -6,7 +6,7 @@ let browserSync = require('browser-sync')
 gulp.task('browser-sync', function() {    // Создаем таск browser-sync
     browserSync({                         // Выполняем browserSync
         server: {                         // Определяем параметры сервера
-            baseDir: './maket/news',      // Директория для сервера - app
+            baseDir: './maket/footer',      // Директория для сервера - app
         },
         notify: false,
         port: 4000,
@@ -19,7 +19,7 @@ gulp.task('browser-sync', function() {    // Создаем таск browser-syn
 gulp.task('sass', function(){                                               // Создаем таск Sass
     return gulp.src('./maket/sass/**/*.sass')                               // Берем источник
         .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))   // Преобразуем Sass в CSS посредством gulp-sass
-        .pipe(gulp.dest('./maket/news'))                                     // Выгружаем результата в папку app/css
+        .pipe(gulp.dest('./maket/footer'))                                     // Выгружаем результата в папку app/css
         .pipe(browserSync.reload({stream: true}))                           // Обновляем CSS на странице при изменении
 });
 
