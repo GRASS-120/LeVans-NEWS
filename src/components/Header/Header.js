@@ -45,7 +45,7 @@ class NavBar extends React.Component {
                 "height":"6.5em",
                 "transition": "0.25s",
             });
-            $("#icons").css("right", "-1.7em");
+            $("#icons").css("right", "-3.9em");
             $("#aljir").css({
                 "width": "5em",
                 "margin-top": "0.6em",
