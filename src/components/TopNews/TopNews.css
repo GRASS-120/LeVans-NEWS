@@ -3,6 +3,10 @@
     font-family: 'Oswald', sans-serif;
 } */
 
+body{
+    background-image: url(https://wallpapercave.com/wp/wp2757874.gif);
+}
+
 #all_top_news{
     position: absolute;
     top: 25em;
