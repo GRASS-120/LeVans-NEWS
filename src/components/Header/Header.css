@@ -1,3 +1,4 @@
+
 #header{
     width: 100%;
     height: 19.53em;
@@ -7,7 +8,7 @@
     text-align: center;
     align-content: center;
     background-color: rgb(52, 58, 64);
-    background-image: url(https://wallpapercave.com/wp/wp2757874.gif);
+    /* background-image: url(https://wallpapercave.com/wp/wp2757874.gif); */
 }
 #logo{
     width: 17.7em;
@@ -54,7 +55,7 @@
     margin-top: 0px;
     margin-left: 0px;
     text-align: center;
-    top: -2.2em;
+    top: 0.5em;
     width: 11.67vw;
     height: 5em;
     display: inline-block;
@@ -86,6 +87,14 @@
     transform: rotate(0deg);
     transition: 1s;
 }
+#icons{
+    height: auto;
+    width: auto;
+    right: 0em;
+    top: 0em;
+    position: absolute;
+    transition: 0.2s;
+}
 #search{
     height: 5.89em;
     width: 5.89em;
@@ -100,7 +109,7 @@
 }
 #search_input{
     height: 3.8em;
-    width: 15.4em;
+    width: 0.1em;
     font-size: 1.5em;
     border: 0px;
     position: absolute;
@@ -108,7 +117,7 @@
     color: white;
     top: 0.1em;
     right: 0em;
-    padding-left: 0.1em;
+    padding-left: 0.03em;
     z-index: 2;
     transition: 1s;
     opacity: 0;
