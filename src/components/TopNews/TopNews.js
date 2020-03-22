@@ -1,7 +1,22 @@
 import React from 'react';
 import './TopNews.css';
+import $ from 'jquery';
 
 class TopNews extends React.Component {
+    componentDidMount(){
+        $("#top_news").css("height", (parseInt($("#top_news").css("width"))/16)*9+"px");
+        this.adapt();
+    }
+    // componentWillUnmount(){
+    //     $("#top_news").css("height", (parseInt($("#top_news").css("width"))/16)*9+"px");
+    // }
+
+    adapt = () => {
+        setInterval(() => {
+            $("#top_news").css("height", (parseInt($("#top_news").css("width"))/16)*9+"px");
+        }, 1000);
+    }
+
     render(){
         return (
             <div id="all_top_news">

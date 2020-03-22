@@ -5,15 +5,15 @@
   }
   
   #news {
-    width: 88.5em;
+    width: 88.5vw;
     height: auto;
     position: absolute;
     top: 100em;
-    left: 15em;
+    left: 5.75vw;
   }
   
   #title_news_block {
-    width: 88.5em;
+    width: 88.5vw;
     height: 20%;
     margin: 0 auto;
   }
