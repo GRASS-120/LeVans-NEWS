@@ -41,10 +41,11 @@
   }
   
   .article {
-    width: 26vw;
+    width: 26em;
     height: 28.65em;
     background-color: #747d8c;
-    margin: 1.3em;
+    margin: 2em;
+    margin-left: 5em;
     box-shadow: 2px 7px 7px silver;
   }
   
