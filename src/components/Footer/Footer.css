@@ -20,7 +20,7 @@
     height: 12em;
     background-color: #747d8c;
     position: fixed;
-    bottom: 0;
+    bottom: -1000px;
     flex: 0 0 auto;
     transition: 0.5s;
   }
