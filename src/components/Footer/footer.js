@@ -1,12 +1,38 @@
-import React from 'react'
-import './Footer.css'
+import React from 'react';
+import './Footer.css';
+import $, {scrollY} from 'jquery';
 
 class Footer extends React.Component {
     constructor(props){
         super(props);
 
         this.state = {
-            
+            pos_y: 0,
+            height: 0,
+            all_height: 0,
+        }
+    }
+
+    componentDidMount(){
+        window.addEventListener('scroll', this.handleScroll);
+    }
+    
+    componentWillUnmount(){
+        window.removeEventListener('scroll', this.handleScroll);
+    }
+
+    handleScroll = (e)=>{
+        let footer = $("#footer");
+        let all_h = $("#height");
+        this.state.height = parseInt(footer.css("height"));
+        // console.log(this.state.height);
+        // console.log(this.state.all_height-window.scrollY-(window.innerHeight));
+        this.state.all_height = parseInt(all_h.css("height"));
+        if((this.state.all_height - window.scrollY-(window.innerHeight)) >= this.state.height){
+            footer.css("bottom", ("-"+this.state.height+"px"));
+            console.log("-"+this.state.height);
+        }else if((this.state.all_height - window.scrollY-(window.innerHeight)) < this.state.height){
+            footer.css("bottom", "0");
         }
     }
 
@@ -14,8 +40,8 @@ class Footer extends React.Component {
         return (
             <div id="footer">
                 <div id="wrapper">
-                    <div id="content">
-                    </div>
+                    {/* <div id="content">
+                    </div> */}
                     <footer>
                         <div id="site_title">
                             <p>LeVans © 2020</p>
@@ -24,22 +50,22 @@ class Footer extends React.Component {
                         <div id="web_links">
                             <div class="web_link">
                                 <a href="#">
-                                    <img src="./vk.png" alt=""/>
+                                    <img src="media\img\footer\vk.png" alt=""/>
                                 </a>
                             </div>
                             <div class="web_link">
                                 <a href="#">
-                                    <img src="./telegram.png" alt=""/>
+                                    <img src="media\img\footer\telegram.png" alt=""/>
                                 </a>
                             </div>
                             <div class="web_link">
                                 <a href="#">
-                                    <img src="./reddi.png" alt=""/>
+                                    <img src="media\img\footer\reddi.png" alt=""/>
                                 </a>
                             </div>
                             <div class="web_link">
                                 <a href="#">
-                                    <img src="./facebook.png" alt=""/>
+                                    <img src="media\img\footer\facebook.png" alt=""/>
                                 </a>
                             </div>
                         </div>
