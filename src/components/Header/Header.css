@@ -1,5 +1,5 @@
 #header{
-    width: 100%;
+    width: 100vw;
     height: 19.53em;
     position: absolute;
     left: 0px;
@@ -7,8 +7,9 @@
     text-align: center;
     align-content: center;
     background-color: rgba(52, 58, 64, 0);
-    /* background-image: url(https://wallpapercave.com/wp/wp2757874.gif); */
+    background-image: url(https://wallpapercave.com/wp/wp2757874.gif);
     /* box-shadow: inset -1vw 1vw 5vw 3vw rgb(41, 42, 43); */
+
 }
 #logo{
     width: 17.7em;
@@ -34,7 +35,7 @@
     font-weight: 900;
 }
 #navbar{
-    width: 100%;
+    width: 100vw;
     height: 10.57em;
     background-color: rgb(45, 42, 52);
     top: 19.53em;

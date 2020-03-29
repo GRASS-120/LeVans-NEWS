@@ -17,7 +17,7 @@ class News extends React.Component {
                     <p id="title_news">NEWS 📰</p>
                 </div>
                 <div id="news_block">
-                    <div id="articles_block">
+                    
                         <div class="article">
                             <div class="article_tag">
                                 <p>#world</p>
@@ -134,7 +134,7 @@ class News extends React.Component {
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
                             </div>
                         </div>
-                    </div>
+                    
                 </div>
             <div id="button_block">
                 <button>Читать больше</button>
