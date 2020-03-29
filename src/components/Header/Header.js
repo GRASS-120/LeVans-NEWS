@@ -180,19 +180,21 @@ class NavBar extends React.Component {
 
     render(){
         return (
-            <div>
-                <div id="header">
-                    <img src="media\img\header\LOGO.png" alt="LeVans" id="logo"/>
-                    <div id="polosa"></div>
-                    <div id="header-text">Новостной портал</div>
+            <div className="container-fluid">
+                <div className="container-fluid">
+                    <div id="header" className="col">
+                        <img src="media\img\header\LOGO.png" alt="LeVans" id="logo"/>
+                        <div id="polosa"></div>
+                        <div id="header-text" className="col">Новостной портал</div>
+                    </div>
                 </div>
-                <div id="navbar">
+                <div id="navbar" className="container-fluid">
                     <img src="media\img\header\aljir.png" alt="" id="aljir"/>
                     <div className="block_navbar"> #World</div>
                     <div className="block_navbar"> #Tech</div>
                     <div className="block_navbar"> #Games</div>
                     <div className="block_navbar"> #Music</div>
-                    <div id="icons">
+                    <div id="icons" className="container">
                         <div id="icon"></div>
                         <img src="media\img\header\search.png" alt="" id="search_icon" onClick={this.search_click.bind(this)}/>
                         <div id="search">
@@ -202,7 +204,6 @@ class NavBar extends React.Component {
                     
                 </div>
                 <div id="height">
-
                 </div>
             </div>
         );
