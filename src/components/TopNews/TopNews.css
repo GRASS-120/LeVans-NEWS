@@ -4,7 +4,7 @@
 } */
 
 body{
-    /* background-image: url(https://wallpapercave.com/wp/wp2757874.gif); */
+    background-image: url(https://wallpapercave.com/wp/wp2757874.gif);
 }
 
 #all_top_news{
@@ -23,6 +23,7 @@ body{
 #title_top_news_block {
     height: 20%;
     width: 88.5vw;
+    color: white;
 }
 
 #title_top_news {
