@@ -19,7 +19,7 @@ class TopNews extends React.Component {
 
     render(){
         return (
-            <div id="all_top_news">
+            <div id="all_top_news" className="container-fluid">
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div id='top_news'>
                         <div id='title_top_news_block'>
