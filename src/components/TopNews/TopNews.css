@@ -1,38 +1,27 @@
-/* * {
-    margin: 0;
-    font-family: 'Oswald', sans-serif;
-} */
-
 body{
-    background-image: url(https://wallpapercave.com/wp/wp2757874.gif);
-}
-
-#all_top_news{
-    position: absolute;
-    top: 25em;
-    left: 5.75vw;
+    font-family: 'Oswald', sans-serif;
 }
 
 #top_news {
     height: 48.7vw;
     width: 88.5vw;
-    margin: 10em auto;
-    font-family: 'Oswald', sans-serif;
+    margin: 25em auto;
 }
 
 #title_top_news_block {
     height: 20%;
     width: 88.5vw;
-    color: white;
+    color: #333;
 }
 
 #title_top_news {
-    font-size: 3.75em;
+    font-size: 3.75vw;
     text-align: center;
 }
 
 #top_news_block { 
     padding: 2.7vw;
+    border: 0.1vw solid silver;
     height: 80%;
     background-color: #dfe4ea;
     box-shadow: 2px 10px 10px silver;
@@ -71,10 +60,12 @@ body{
 }
 
 .post_display_title p {
-    font-size: 2em;
+    padding-top: 1vw;
+    font-size: 1.6vw;
+    font-weight: bold;
     text-align: center;
     color: #2f3640;
-    text-shadow: 1px 1px 1px #fafafa;
+    /* text-shadow: 1px 1px 1px #fafafa; */
 }
 
 .post_display_tag {
@@ -85,47 +76,32 @@ body{
 }
 
 .post_display_tag p {
-    padding: 8px;
-    padding-left: 20px;
-    font-size: 1.2em;
+    padding: 0.5vw;
+    padding-left: 1.5vw;
+    font-size: 1.2vw;
     color: white;
 }
 
 .post_display_short_text {
     width: 100%;
     height: 77%;
-    overflow: scroll;
-}
-.post_display_short_text::-webkit-scrollbar{
-    width: 12px;
-    background-color: darkgray;
-}
-.post_display_short_text::-webkit-scrollbar-thumb{
-    background-color: crimson;
-    width: 12px;
 }
 
 .post_display_short_text p {
-    padding: 15px;
-    padding-bottom: 5px;
-    font-size: 1.5em;
+    padding: 1vw;
+    font-size: 1.4vw;
     opacity: 0.7;
 }
 
 .post_display_short_text button {
     display: block;
-    margin: 1px auto;
-    border: none;
-    font-size: 1.8em;
-    padding: 13px;
-    background-color: #d63031;
-    color: white;
-    border-radius: 10px;
-    transition: 0.3s;
+    margin: 1.8vw auto;
 }
 
-.post_display_short_text button:hover {
-    background-color: #EA2027;
+.post_display_short_text button p {
+    font-size: 1.3em;
+    color: #fafafa;
+    margin: 0.1vw;
 }
 
 /* slider */
@@ -161,12 +137,7 @@ span:hover {
 .self_style_button{
     margin-top: 8em;
 }
-.self_style_button_left{
-    margin-left: -6em;
-}
-.self_style_button_right{
-    margin-right: -6em;
-}
+
 .carousel_contol_self{
-    font-size: 7vw;
+    font-size: 3vw;
 }

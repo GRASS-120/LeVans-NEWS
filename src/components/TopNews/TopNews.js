@@ -29,41 +29,45 @@ class TopNews extends React.Component {
                         <div class="carousel-inner">
                             <div class="carousel-item active post">
                                     <div class="post_img">
-                                    <img src="https://img.rg.ru/img/content/153/10/69/1_d_850.jpg"/>
+                                        <img src="https://img.rg.ru/img/content/153/10/69/1_d_850.jpg"/>
                                     </div>
                                     <div class="post_display">
+                                        <div class="post_display_title">
+                                            <p>Аниме убивает подростков!</p>
+                                        </div>
+                                        <div class="post_display_tag">
+                                            <p>#world🌍</p>
+                                        </div>
+                                        <div class="post_display_short_text">
+                        
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi autem laborum ducimus accusantium vel numquam cumque eum esse
+                                            quos impedit, minima deleniti nam animi debitis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit repudiandae modi maiores vitae perspiciatis eius!
+                                            Lorem ipsum dolor sit amet.</p>
+                                            <button className="btn btn-danger">
+                                                <p>Читать далее...</p>
+                                            </button>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="carousel-item post">
+                                <div class="post_img">
+                                    <img src="media\img\top_news\149959687159620847f228d4.34486523.jpg"/>
+                                </div>
+                                <div class="post_display">
                                     <div class="post_display_title">
-                                        <p>Аниме убивает подростков!</p>
+                                        <p>Lorem или Ipsum?</p>
                                     </div>
                                     <div class="post_display_tag">
                                         <p>#world🌍</p>
                                     </div>
                                     <div class="post_display_short_text">
-                    
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi autem laborum ducimus accusantium vel numquam cumque eum esse
                                         quos impedit, minima deleniti nam animi debitis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit repudiandae modi maiores vitae perspiciatis eius!
                                         Lorem ipsum dolor sit amet.</p>
-                                        <button>Читать далее...</button>
+                                        <button className="btn btn-danger">
+                                            <p>Читать далее...</p>
+                                        </button>
                                     </div>
-                                    </div>
-                            </div>
-                            <div class="carousel-item post">
-                                <div class="post_img">
-                                <img src="media\img\top_news\149959687159620847f228d4.34486523.jpg"/>
-                                </div>
-                                <div class="post_display">
-                                <div class="post_display_title">
-                                    <p>Аниме убивает подростков!</p>
-                                </div>
-                                <div class="post_display_tag">
-                                    <p>#world🌍</p>
-                                </div>
-                                <div class="post_display_short_text">
-                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi autem laborum ducimus accusantium vel numquam cumque eum esse
-                                    quos impedit, minima deleniti nam animi debitis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit repudiandae modi maiores vitae perspiciatis eius!
-                                    Lorem ipsum dolor sit amet.</p>
-                                    <button>Читать далее...</button>
-                                </div>
                                 </div>
                     
                             </div>
@@ -73,7 +77,7 @@ class TopNews extends React.Component {
                                 </div>
                                 <div class="post_display">
                                 <div class="post_display_title">
-                                    <p>Аниме убивает подростков!</p>
+                                    <p>Как выглядят улицы городов во время карантина?</p>
                                 </div>
                                 <div class="post_display_tag">
                                     <p>#world🌍</p>
@@ -82,7 +86,9 @@ class TopNews extends React.Component {
                                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi autem laborum ducimus accusantium vel numquam cumque eum esse
                                     quos impedit, minima deleniti nam animi debitis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit repudiandae modi maiores vitae perspiciatis eius!
                                     Lorem ipsum dolor sit amet.</p>
-                                    <button>Читать далее...</button>
+                                    <button className="btn btn-danger">
+                                        <p>Читать далее...</p>                        
+                                    </button>
                                 </div>
                                 </div>    
                             </div>
