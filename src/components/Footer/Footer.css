@@ -17,7 +17,7 @@
   
   #footer {
     width: 100%;
-    height: 12em;
+    height: 12vw;
     background-color: #747d8c;
     position: fixed;
     bottom: -1000px;
@@ -50,10 +50,10 @@
   }
   
   .web_link {
-    width: 4.3em;
-    height: 4.3em;
+    width: 4.3vw;
+    height: 4.3vw;
     float: left;
-    margin: 1em;
+    margin: 1vw;
     border-radius: 50%;
   }
   

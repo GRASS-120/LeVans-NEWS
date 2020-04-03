@@ -16,9 +16,9 @@ class News extends React.Component {
                 <div id="title_news_block">
                     <p id="title_news">NEWS 📰</p>
                 </div>
-                <div id="news_block">
-                    
-                        <div class="article">
+                <div id="news_block" className='container-fluid'>
+
+                    <div className="col-md-4"><div class="article">
                             <div class="article_tag">
                                 <p>#world</p>
                             </div>
@@ -55,9 +55,11 @@ class News extends React.Component {
                                 <p>by Lorem Ipsum</p>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
                             </div>
-                        </div>
-            
-                        <div class="article">
+                        </div></div>
+
+
+                    <div className="col-md-4">
+                    <div class="article">
                             <div class="article_tag">
                                 <p>#world</p>
                             </div>
@@ -95,8 +97,10 @@ class News extends React.Component {
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
                             </div>
                         </div>
-            
-                        <div class="article">
+                    </div>
+
+                    <div className="col-md-4">
+                    <div class="article">
                             <div class="article_tag">
                                 <p>#world</p>
                             </div>
@@ -134,6 +138,7 @@ class News extends React.Component {
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
                             </div>
                         </div>
+                    </div>
                     
                 </div>
             <div id="button_block">

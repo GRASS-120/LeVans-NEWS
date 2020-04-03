@@ -15,7 +15,7 @@ body{
 }
 
 #title_top_news {
-    font-size: 3.75vw;
+    font-size: 3.75em;
     text-align: center;
 }
 
@@ -94,6 +94,7 @@ body{
 }
 
 .post_display_short_text button {
+    padding: 0;
     display: block;
     margin: 1.8vw auto;
 }
