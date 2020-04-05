@@ -1,6 +1,7 @@
-/* body{
-    background-image: url(https://wallpapercave.com/wp/wp2757874.gif);
-} */
+body{
+    /* background-image: url(https://wallpapercave.com/wp/wp2757874.gif); */
+    background-color: rgb(22, 22, 30);
+}
 
 #header{
     /* width: 100vw;
