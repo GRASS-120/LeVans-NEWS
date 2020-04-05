@@ -65,7 +65,7 @@ body{
     font-weight: bold;
     text-align: center;
     color: #2f3640;
-    /* text-shadow: 1px 1px 1px #fafafa; */
+    font-family: 'Oxygen', sans-serif;
 }
 
 .post_display_tag {
@@ -94,15 +94,24 @@ body{
 }
 
 .post_display_short_text button {
-    padding: 0;
     display: block;
     margin: 1.8vw auto;
+    border: none;
+    transition: 0.3s;
+    color: white;
+    background-color: #d63031;
+}
+
+.post_display_short_text button:hover {
+    box-shadow: 0px 7px 7px silver;
+    background-color: #EA2027;
 }
 
 .post_display_short_text button p {
     font-size: 1.3em;
-    color: #fafafa;
+    color: white;
     margin: 0.1vw;
+    opacity: 1;
 }
 
 /* slider */

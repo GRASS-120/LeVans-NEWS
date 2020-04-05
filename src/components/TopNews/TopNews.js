@@ -39,11 +39,10 @@ class TopNews extends React.Component {
                                             <p>#world🌍</p>
                                         </div>
                                         <div class="post_display_short_text">
-                        
                                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi autem laborum ducimus accusantium vel numquam cumque eum esse
                                             quos impedit, minima deleniti nam animi debitis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit repudiandae modi maiores vitae perspiciatis eius!
                                             Lorem ipsum dolor sit amet.</p>
-                                            <button className="btn btn-danger">
+                                            <button>
                                                 <p>Читать далее...</p>
                                             </button>
                                         </div>
@@ -64,7 +63,7 @@ class TopNews extends React.Component {
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi autem laborum ducimus accusantium vel numquam cumque eum esse
                                         quos impedit, minima deleniti nam animi debitis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit repudiandae modi maiores vitae perspiciatis eius!
                                         Lorem ipsum dolor sit amet.</p>
-                                        <button className="btn btn-danger">
+                                        <button>
                                             <p>Читать далее...</p>
                                         </button>
                                     </div>
@@ -86,7 +85,7 @@ class TopNews extends React.Component {
                                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi autem laborum ducimus accusantium vel numquam cumque eum esse
                                     quos impedit, minima deleniti nam animi debitis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit repudiandae modi maiores vitae perspiciatis eius!
                                     Lorem ipsum dolor sit amet.</p>
-                                    <button className="btn btn-danger">
+                                    <button>
                                         <p>Читать далее...</p>                        
                                     </button>
                                 </div>
