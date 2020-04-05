@@ -286,7 +286,7 @@ class NavBar extends React.Component {
                     </div>
 
                     <div id="icons" className="container">
-                        <div id="icon"></div>
+                        <img src="media\img\header\user.png" alt="" id="icon"/>
                         <img src="media\img\header\search.png" alt="" id="search_icon" onClick={this.search_click.bind(this)}/>
                         <div id="search">
                             <input type="text" id="search_input"/>
