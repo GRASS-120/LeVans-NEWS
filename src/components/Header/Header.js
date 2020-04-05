@@ -209,7 +209,7 @@ class NavBar extends React.Component {
     loader(e){
         if(window.innerWidth <= window.innerHeight){
             $(".block_navbar").css("font-size", "1.2em");
-            if(window.innerWidth <= window.innerHeight/2){
+            if(window.innerWidth <= window.innerHeight/1.7){
                 $(".block_navbar").css({
                     "height": "2vw",
                 })
