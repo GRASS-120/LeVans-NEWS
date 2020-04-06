@@ -261,41 +261,40 @@ class NavBar extends React.Component {
 
     render(){
         return (
-            <div className="container-fluid">
+            <div id='HEADER' className="container-fluid">
                 <div className="container-fluid">
-                    <div id="header" className="col">
+                    <div id="header">
                         <img src="media\img\header\LOGO.png" alt="LeVans" id="logo"/>
                         <div id="polosa"></div>
-                        <div id="header-text" className="col">Новостной портал</div>
+                        <div id="header-text">Новостной портал</div>
                     </div>
-                </div>
-                <div id="navbar" className="container-fluid">
-                    <img src="media\img\header\aljir.png" alt="" id="aljir"/>
+                    <div id="navbar">
+                        <img src="media\img\header\aljir.png" alt="" id="aljir"/>
 
-                    <div id="nav_blocks" className="container">
-                        <div className="block_navbar"> #World</div>
-                        <div className="block_navbar"> #Tech</div>
-                        <div className="block_navbar"> #Games</div>
-                        <div className="block_navbar"> #Music</div>
-                    </div>
-                    
-                    <div id="burger" className="container" onClick={this.burger.bind(this)}>
-                        <div id="one_burger" className="col"></div>
-                        <div id="two_burger" className="col"></div>
-                        <div id="three_burger" className="col"></div>
-                    </div>
-
-                    <div id="icons" className="container">
-                        <img src="media\img\header\user.png" alt="" id="icon"/>
-                        <img src="media\img\header\search.png" alt="" id="search_icon" onClick={this.search_click.bind(this)}/>
-                        <div id="search">
-                            <input type="text" id="search_input"/>
+                        <div id="nav_blocks" className="container">
+                            <div className="block_navbar"> #World🌍</div>
+                            <div className="block_navbar"> #Tech💻</div>
+                            <div className="block_navbar"> #Games🎮</div>
+                            <div className="block_navbar"> #Music🎶</div>
                         </div>
+                        
+                        <div id="burger" className="container" onClick={this.burger.bind(this)}>
+                            <div id="one_burger" className="col"></div>
+                            <div id="two_burger" className="col"></div>
+                            <div id="three_burger" className="col"></div>
+                        </div>
+
+                        <div id="icons" className="container">
+                            <img src="media\img\header\user.png" alt="" id="icon"/>
+                            <img src="media\img\header\search.png" alt="" id="search_icon" onClick={this.search_click.bind(this)}/>
+                            <div id="search">
+                                <input type="text" id="search_input"/>
+                            </div>
+                        </div>  
                     </div>
-                    
                 </div>
-                <div id="height">
-                </div>
+                {/* <div id="height">
+                </div> */}
             </div>
         );
     }
