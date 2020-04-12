@@ -29,7 +29,6 @@ class NavBar extends React.Component {
         // let navbar = document.getElvwentById("navbar");
         let navbar = $("#navbar");
         let sY_reserve = (parseInt($("#header-text").css("font-size"))*11);
-        console.log(sY_reserve)
         this.state.sY = sY_reserve;
         // console.log(navbar.children());
         if (window.scrollY >= this.state.sY/2) {
@@ -207,6 +206,20 @@ class NavBar extends React.Component {
     }
 
     loader(e){
+        let navbar = $("#navbar");
+        let sY_reserve = (parseInt($("#header-text").css("font-size"))*11);
+        if (window.scrollY >= sY_reserve/2) {
+            navbar.css("position", "fixed");
+            navbar.css("top","0px");
+        }
+        else{
+            navbar.css("position", "absolute");
+            navbar.css({
+                "top":(sY_reserve-window.scrollY)+"px",
+                "height":"8.57vw",
+                "transition": "0s",
+            });
+        }
         if(window.innerWidth <= window.innerHeight){
             $(".block_navbar").css("font-size", "1.2em");
             if(window.innerWidth <= window.innerHeight/1.7){
